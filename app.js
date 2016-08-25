@@ -1,7 +1,7 @@
 //importações e configurações
 var app = require("./config/express")();
 
-//Importação das rotas
+//Importação das rotas.
 var routeProdutos = require('./app/routes/routeProdutos.js')(app);
 var routeHome = require('./app/routes/routeHome')(app);
 
