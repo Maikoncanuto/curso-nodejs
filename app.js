@@ -1,9 +1,6 @@
 //importações e configurações
-var express = require("express")();
+var express = require("./config/express")();
 var porta = 3000;
-
-//configurando EJS 
-express.set('view engine', 'ejs');
 
 //rotas
 express.get("/", function(req, res){
