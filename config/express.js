@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-//Importa express
-var app = require('express')();
-
-//Configura EJS
-app.set('view engine', 'ejs');
-
-=======
 //Importação do express
 var app = require('express')();
 
@@ -13,7 +5,6 @@ var app = require('express')();
 app.set('view engine', 'ejs');
 
 //Retorna express configurado
->>>>>>> dev
 module.exports = function(){
     return app;
 }
