@@ -7,7 +7,6 @@ var routeProdutos = require('./app/routes/routeProdutos.js')(app);
 //Configuraçõa do servidor
 var porta = 3000;
 
->>>>>>> dev
 //rotas
 app.get("/", function(req, res){
     res.end("<html><body>Home do site</body></html>");
